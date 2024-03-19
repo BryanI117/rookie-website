@@ -1,0 +1,76 @@
+body {
+        background-color: #0FC2C0;
+}
+
+p {
+        font-family: Baskerville;
+}
+
+.button {
+        background-color: lightskyblue;
+        border: black;
+        color: lightseagreen;
+        padding: 10px 20px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+}
+
+button:hover {
+        background-color: lightblue;
+        color: blue;
+
+}
+
+#Page three {
+        background-color: lightgreen; 
+}
+
+.container {
+        column-width: 250px;
+        column-gap: 20px;
+}
+.card {
+        break-inside: avoid;
+        background-color: rgba(0, 0, 0, 0);
+        border: 2px solid rgb(255, 255, 255);
+        padding: 10px;
+        margin: 0 0 1em 0;
+      }
+/* In your external stylesheet or in <style> tags */
+#special-page {
+        background-color: lightgreen; 
+ 
+    
+      p,
+      ul {
+        border: 2px solid rebeccapurple;
+        padding: .5em;
+      }
+      
+      .block,
+      li {
+        border: 2px solid blue;
+        padding: .5em;
+      }
+      
+      ul {
+        display: flex;
+        list-style: none;
+      }
+      
+      .block {
+        display: block;
+      }
+}
+
+.text-box {
+        border: 2px solid #0eb0cc;  /* Example border */
+        background-color: #ffffff; /* Example background color */
+        padding: 20px; 
+        margin: 15px;
+        border-radius: 8px;  /* For rounded corners */
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.2); /* Optional box shadow */
+    }
