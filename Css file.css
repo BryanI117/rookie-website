@@ -1,9 +1,9 @@
 body {
-        background-color: #0FC2C0;
+        background-color: #0FC2C0; /* Change the background color*/
 }
 
 p {
-        font-family: Baskerville;
+        font-family: Baskerville; /* Not working for some reason*/
 }
 
 .button {
@@ -20,7 +20,7 @@ p {
 
 button:hover {
         background-color: lightblue;
-        color: blue;
+        color: #D989BD;
 
 }
 
@@ -39,7 +39,7 @@ button:hover {
         padding: 10px;
         margin: 0 0 1em 0;
       }
-/* In your external stylesheet or in <style> tags */
+
 #special-page {
         background-color: lightgreen; 
  
@@ -67,10 +67,146 @@ button:hover {
 }
 
 .text-box {
-        border: 2px solid #0eb0cc;  /* Example border */
-        background-color: #ffffff; /* Example background color */
+        border: 2px solid #0eb0cc;  
+        background-color: #ffffff; 
         padding: 20px; 
         margin: 15px;
-        border-radius: 8px;  /* For rounded corners */
-        box-shadow: 5px 5px 10px rgba(0,0,0,0.2); /* Optional box shadow */
+        border-radius: 8px;  
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.2); 
     }
+
+.contact-page {
+        background-image: linear-gradient(to bottom, #D989BD 20%, #BF39B6 40%, #692273 60%, #371640 80%, #0D208C 100%);
+        height: 100vh; /* Make background cover entire viewport */
+      }
+
+.text-box {
+        width: 300px;         
+        padding: 20px;        
+        border: 2px solid blue;  
+        margin: 20px auto;    
+        background-color: #f0f0f0; 
+        border-radius: 5px;   
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+      }
+
+.custom-button {
+        display: inline-block;
+        padding: 15px 25px;
+        background-color: #D989BD; /* Pink color */
+        color: white;
+        text-decoration: none;  /* Remove underline */
+        border: none;          
+        border-radius: 4px;   
+        cursor: pointer;       
+        font-size: 16px;
+      }
+      
+      .image-text-box {
+        display: flex; 
+        align-items: center; 
+        border: 1px solid #ccc; 
+        color:antiquewhite;
+        padding: 20px; 
+        margin-bottom: 20px; /* Space between boxes */
+      }
+      
+      .image-text-box img {
+        max-width: 150px; /* Adjust image size as needed */
+        margin-right: 15px; /* Add spacing between image and text */
+      }
+      
+      .text-content {
+        flex: 1; 
+      }
+      
+      .heading-box {
+        border: 5px ridge #BDBFBF; 
+        padding: 8px; 
+        margin-bottom: 5px; 
+        color:aliceblue;
+        text-align: center;     
+        border-radius: 8px;
+        background: linear-gradient(to right, #BDBFBF, #07070D); 
+
+        box-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.5), /* Inner white glow */
+        0 0 100px rgba(0, 0, 255, 0.3); /* Outer blue glow */
+      }
+
+      header {
+        background-color: #f0f0f0; 
+        padding: 20px;
+        text-align: center;
+        border-bottom: 2px solid #ccc;
+      }
+      
+            
+     
+      nav ul {
+
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav li {
+
+        display: inline; /* Links side by side */
+        margin: 0 10px; /* Spacing between links */
+      }
+      
+      nav a {
+        text-decoration: none;
+        color: #333; 
+        display: inline-block; /* Important for padding to work */
+        padding: 8px;       
+        background-color: #BDBFBF;
+        border-radius: 50%;
+        text-decoration: none;
+        color: linear-gradient(to right, #07070D, #BDBFBF)
+      }
+      nav a:hover {
+        color: white;
+        background-color: #8B8C8C; 
+    }
+
+    .image-box {
+        width: 400px;      /* Adjust width of the box */
+        height: 400px;     /* Adjust height of the box */
+        border: 2px groove #333;  /* Example border */
+        margin: 20px auto;       /* Centers the box */
+        padding: 15px;           /* Adds space around the image inside the box */ 
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Optional: adds a shadow */
+    }
+    
+    .image-box img {
+        max-width: 100%;       
+        height: auto;          
+        display: block;        /* Prevents extra space below the image */
+        border-radius: 10px;   
+    }
+
+.responsive-image {
+        max-width: 100%;   
+        height: auto;      
+     }
+
+     .container-2 {
+        column-width: 250px;
+        column-gap: 50px;
+    
+    
+    
+    }
+
+    .card {
+        break-inside: avoid;
+        background-color: rgba(0, 0, 0, 0);
+        border: 10px double #D90B1C;
+        padding: 10px;
+        margin: 0 0 1em 0;
+        color: #8B8C8C;
+      }
+    
+      
